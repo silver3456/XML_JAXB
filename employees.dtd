@@ -1,0 +1,10 @@
+<!ELEMENT employees (employee)+>
+<!ELEMENT employee (firstname , lastname , title , hiredate , phone , email)>
+<!ATTLIST employee xmlns CDATA #FIXED "">
+<!ATTLIST employee id CDATA #REQUIRED>
+<!ELEMENT firstname (#PCDATA)>
+<!ELEMENT lastname (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT hiredate (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
